@@ -2,19 +2,26 @@
   "name": "turnio-opensrp",
   "version": "1.0.0",
   "description": "Turn.io and OpenSRP integration",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:turnhub/turnio-opensrp.git",
   "author": "Simon de Haan <simon@praekelt.org>",
   "scripts": {
-    "serve": "node local.js"
+    "serve": "node lib/server.js",
+    "build": "babel --delete-dir-on-start src -d lib",
+    "prepare": "yarn build"
   },
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@turnio/integration": "1.1.1",
+    "@turnio/integration": "1.1.2",
     "debug": "^4.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
   }
 }
