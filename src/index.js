@@ -64,7 +64,6 @@ const table_for_unknown = (kind, record) => {
 };
 
 const app = new TurnIntegration(process.env.SECRET)
-  .ignoreSignature()
   /**
    * Generate a menu item for kicking off a task in the Turn UI
    *
