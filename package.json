@@ -6,6 +6,7 @@
   "repository": "git@github.com:turnhub/turnio-opensrp.git",
   "author": "Simon de Haan <simon@praekelt.org>",
   "scripts": {
+    "preserve": "yarn build",
     "serve": "node lib/server.js",
     "build": "babel --delete-dir-on-start src -d lib",
     "prepare": "yarn build"
