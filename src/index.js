@@ -69,7 +69,6 @@ const app = new TurnIntegration(process.env.SECRET)
    *
    * This still needs to be implemented, right now it just displays a menu item.
    */
-  .verbose()
   .action(({ chat, messages }) => [
     {
       description: "Mark a Task as completed",
