@@ -666,10 +666,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@turnio/integration@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@turnio/integration/-/integration-1.2.2.tgz#0a31aa061b5eb032c1f5e8cca4c7bf65aead8873"
-  integrity sha512-8AEyLh1FZOJHgOBdUEl2YlHDx1dadfzSAq9exgplpi/NLa+k4Rg/Qydg/Qo5h/6OjEv+J3Bi5MvIEchqstvR1w==
+"@turnio/integration@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@turnio/integration/-/integration-1.2.3.tgz#01b496280e8e45379b15ba56de583b275019ee10"
+  integrity sha512-9g5LnSzJF86zPSdzHkblZe1LEL1Wpr1hS0QCRygWhy1KqIw49qHtdZkoZs84x8MqEJjvoBBWltOqtOYceFgeNw==
   dependencies:
     body-parser "^1.19.0"
     debug "^4.1.1"
