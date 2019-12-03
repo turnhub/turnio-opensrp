@@ -7,4 +7,5 @@ steps:
       - --source=.
       - --entry-point=app
       - --runtime=nodejs10
+      - --region=europe-west1
       - turnio-opensrp
